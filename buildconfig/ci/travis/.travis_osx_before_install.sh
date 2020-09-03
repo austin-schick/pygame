@@ -1,7 +1,7 @@
 # Compiles pygame on homebrew for distribution.
 # This may not be what you want to do if not on travisci.
 
-set -e
+set -ex
 
 # Work around https://github.com/travis-ci/travis-ci/issues/8703 :-@
 # Travis overrides cd to do something with Ruby. Revert to the default.
